@@ -1,0 +1,21 @@
+doctype html
+html
+
+  head
+    meta(charset='utf8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+    meta(name='description', content='description of your site')
+    meta(name='author', content= "author of the site")
+    link(rel='stylesheet prefetch', href='https://googledrive.com/host/0B1RR6fhjI2QROGt0MTFoVkhMdUk/fonts.css')
+    link(rel='stylesheet prefetch', href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css')
+    link(rel='stylesheet', href='css/vendor.css')
+
+    //- uncomment if your site is responsive!
+    //- meta(name="viewport" content="width=device-width, initial-scale=1")
+    title= _path
+    != css()
+
+  body
+    block content
+
+    != js()
